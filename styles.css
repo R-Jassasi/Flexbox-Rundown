@@ -225,6 +225,13 @@ iframe {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: navy;
     font-size: 20px;
+    /* to make the text verically centered */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+
+    
 }
 
 /* flipping content attempe */

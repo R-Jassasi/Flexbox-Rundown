@@ -15,16 +15,20 @@
     
 
     <!--Header title and menu begin here-->
+
+    <!-- to add ANCHOR LINKS, add (id="name-of-thingy") in the thing you want to link
+    and in the text/icon link, add (<a href="#name-of-thingy">BUTTON TEXT</a>). 
+     check the list for examples :) -->
     <header>
           <h1>Flexbox Rundown</h1>           
 
           <ul>
               <div class="container-navigation">
-                <li>1.FlexGrow</li>
-                <li>2.CenterItem</li>
-                <li>3.Video</li>
-                <li class="push">4.Audio</li>
-                <li>5.Media</li>
+                <li><a href="#flexgrow">1.FlexGrow</a></li>
+                <li><a href="#centeritem">2.CenterItem</a></li>
+                <li><a href="#video">3.Video</a></li>
+                <li class="push"><a href="#audio">4.Audio</a></li>
+                <li><a href="#media">5.Media</a></li>
               </div>
           </ul>
           
@@ -34,7 +38,7 @@
  
  
         <main>
-            <div class="section-one">
+            <div id="flexgrow" class="section-one">
                 <div class="flexgrow-container">
                     <div class="box1">ONE</div>
                     <div class="box2">TWO</div>
@@ -44,7 +48,7 @@
 
             </div>
 
-            <div class="section-two">
+            <div id="centeritem" class="section-two">
                 
 
                     <img src="http://placekitten.com/600/500">
@@ -55,7 +59,7 @@
             <!-- video goes below -->
             <!-- "iframe" to put another content in the webpage from somewhere else, adjust its resolution-->
 
-            <div class="section-three">
+            <div id="video" class="section-three">
 
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/vodnI38cNI0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  
@@ -63,7 +67,7 @@
 
             </div>
 
-            <div class="section-four">
+            <div id="audio" class="section-four">
 
                 <figure>
                     <figcaption class="cor-blimey">Cor Blimey!</figcaption>
@@ -78,7 +82,7 @@
 
             </div>
 
-            <div class ="section-five">
+            <div id="media" class ="section-five">
                 
                 <div class="media-container">
                     
