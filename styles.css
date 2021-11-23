@@ -14,10 +14,20 @@ header {
 
 }
 
+/*   h1 styles  */
+
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 60px;
     text-align: center;
+}
+
+/*  Unordered list styles  */
+
+ul{
+    list-style-type: none;
+    padding: 5px;
+
 }
 
 
