@@ -159,12 +159,16 @@ li{
 .section-three {
     background-color: lightcoral;
     height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
 }
 
 iframe { 
     padding: 5px;
-    
 }
 
 
