@@ -310,7 +310,7 @@ footer{
   }
   
   .slider {
-    width: 300px;
+    width: 600px;
     text-align: center;
     overflow: hidden;
   }
@@ -331,6 +331,12 @@ footer{
     scroll-snap-type: mandatory;
     */
   }
+
+  .slide-image {
+    border-radius: 10px;
+}
+
+
   .slides::-webkit-scrollbar {
     width: 10px;
     height: 10px;
@@ -343,7 +349,7 @@ footer{
     background: transparent;
   }
   .slides > div {
-    border: 3px solid purple;
+    border: 10px solid purple;
     scroll-snap-align: start;
     flex-shrink: 0;
     width: 600px;
